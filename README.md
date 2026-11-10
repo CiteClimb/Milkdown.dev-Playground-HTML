@@ -15,4 +15,5 @@ For example, it could look something like this after you perform this step on a 
   To avoid this, please press the share button, which encodes the markdown into the URL, before pressing the fullscreen button.
   Then, you can create a bookmark (after pressing the share button) to save your text.
 * This does pull some assets from servers, including vectors and fonts. The dark\_mode, chevron\_left (fullscreen button), and share buttons are some examples of of this. However, the buttons are still usable. For this reason, I didn't bother trying to make these buttons load from the archive. The font will be slightly different (as they will be your browser's default fonts), but again, it is still usable.
+* When your network status changes, many browsers will randomly reload file:/// HTML pages. Unfortunately, that would lose progress, so make saves (with the share button and bookmarks) regularly, and before changing/connecting/disconnecting {null}/to/from networks.
 * I made this readme file with this archive of Milkdown + Crepe 🤣
